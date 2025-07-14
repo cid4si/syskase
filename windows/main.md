@@ -1,8 +1,8 @@
 # Windows
 
-O Windows é um *sistema operacional multiprocessamento simétrico* (SMP, do inglês Symmetric Multiprocessing), o que significa que todas as [CPUs](./hardware/CPU.md) (ou núcleos) disponíveis no sistema são tratadas de forma igual e podem executar qualquer processo.
+O Windows é um *sistema operacional multiprocessamento simétrico* (SMP, do inglês Symmetric Multiprocessing), o que significa que todas as [CPUs](../hardware/CPU.md) (ou núcleos) disponíveis no sistema são tratadas de forma igual e podem executar qualquer processo.
 
-Nesse tipo de arquitetura, o kernel do Windows pode agendar um processo para ser executado em qualquer CPU disponível, o que permite uma utilização mais eficiente dos recursos do sistema e melhora o desempenho geral.
+Nesse tipo de arquitetura, o [kernel do Windows](../windows/kernel.md) pode agendar um processo para ser executado em qualquer CPU disponível, o que permite uma utilização mais eficiente dos recursos do sistema e melhora o desempenho geral.
 
 No Windows, o escalonador de processos (ou scheduler) é responsável por decidir qual processo deve ser executado em cada CPU e quando. O escalonador leva em conta vários fatores, como a prioridade do processo, o tempo de execução necessário e a disponibilidade de recursos do sistema.
 

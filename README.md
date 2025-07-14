@@ -30,6 +30,6 @@ Este guia é a minha forma de organizar e aprofundar meu próprio desenvolviment
 
 Este guia é um recurso vivo e em constante evolução. Estou comprometido em atualizar e melhorar o conteúdo regularmente, e também estou aberto a contribuições e sugestões de membros da comunidade. 
 
-
-
+<!-- ## Links
+-->
 
