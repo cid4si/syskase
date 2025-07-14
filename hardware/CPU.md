@@ -10,7 +10,7 @@ A CPU é frequentemente chamada de "cérebro" do computador, pois coordena e con
 
 ### Em Sistemas Linux
 
-No [Linux](), as informações detalhadas da CPU podem ser obtidas com os seguintes comandos:
+No [Linux](../linux/main.md), as informações detalhadas da CPU podem ser obtidas com os seguintes comandos:
 
 ```bash
 # Informações completas da CPU
