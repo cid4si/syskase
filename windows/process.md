@@ -89,9 +89,9 @@ Cada processo em execução recebe um **integrity level** que é identificado po
 | Protected-Process(?) | S-1-16-20480 | |
 | Secure-Process(?) | S-1-16-28672 | |
 
-## PowerShell
+## [PowerShell](powershell.md)
 
-A **variável automática** do PowerShell `$PID` contém o **process identifier** do processo que está hospedando a sessão atual do Windows PowerShell.
+A **variável automática** do [PowerShell](powershell.md) `$PID` contém o **process identifier** do processo que está hospedando a sessão atual do Windows [[PowerShell](powershell.md)]([PowerShell](powershell.md).md).
 
 O **cmdlet** `get-process` retorna os processos que estão executando localmente ou remotamente.
 
@@ -113,7 +113,7 @@ Processos existentes podem ser consultados com `WMIC.exe`:
 wmic process get processId,name
 ```
 
-**Mostrar parent process id e process id dos processos cmd.exe:**
+**Mostrar parent process id e process id dos processos [cmd.exe](cmd.md):**
 ```cmd
 wmic process where "name='cmd.exe'" get parentProcessId,ProcessId
 ```
@@ -122,13 +122,13 @@ Outra possibilidade para consultar processos em execução (ou parados) é forne
 
 ### Obtendo o Parent PID de um Processo
 
-**No PowerShell:**
-```powershell
+**No [PowerShell](powershell.md):**
+```[PowerShell](powershell.md)
 get-cimInstance win32_Process -filter "name = 'oracle.exe'" | select parentProcessId
 ```
 
-**No PowerShell Core:**
-```powershell
+**No [PowerShell](powershell.md) Core:**
+```[PowerShell](powershell.md)
 get-process | where-object id -eq $pid | select-object { $_.parent.id }
 ```
 
@@ -142,17 +142,17 @@ O error mode é definido com `SetErrorMode(…)`. O **MSDN** recomenda chamar `S
 
 ## Terminando Processos
 
-- `taskkill.exe` mata processos no `cmd.exe` (e PowerShell)
-- O PowerShell tem um cmdlet específico para terminar processos: `stop-process`
-- Este cmdlet é usado no script simples do PowerShell `kil.ps1`
+- `taskkill.exe` mata processos no `cmd.exe` (e [PowerShell](powershell.md))
+- O [PowerShell](powershell.md) tem um cmdlet específico para terminar processos: `stop-process`
+- Este cmdlet é usado no script simples do [PowerShell](powershell.md) `kil.ps1`
 - Também existe o `tskill.exe`, o **Remote Desktop Services End Process Utility**
 - `kill.exe`
 
 ## Número de Processos
 
-No PowerShell, o número de processos pode ser determinado com o cmdlet `get-counter`:
+No [PowerShell](powershell.md), o número de processos pode ser determinado com o cmdlet `get-counter`:
 
-```powershell
+```[PowerShell](powershell.md)
 "Number of processes: $((get-counter '\Objects\Processes').counterSamples.cookedValue)"
 ```
 
