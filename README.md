@@ -21,9 +21,8 @@ Guia técnico sobre sistemas operacionais</p>
 
 ## Sumário
 
-* [Windows](./windows/main.md)
 * [Linux](./linux/main.md)
-
+* [Windows](./windows/main.md)
 
 
 ## Introdução

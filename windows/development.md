@@ -2,7 +2,7 @@
 
 ## Formato PE (Portable Executable)
 
-Os binários do Windows seguem o formato PE (enquanto os binários do Linux seguem o formato ELF).
+Os binários do Windows seguem o formato PE (enquanto os binários do [Linux](../linux/main.md) seguem o formato ELF).
 
 Sufixos comuns de arquivos PE são:
 - `.exe`

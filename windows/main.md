@@ -1,6 +1,6 @@
 # Windows
 
-O Windows é um *sistema operacional multiprocessamento simétrico* (SMP, do inglês Symmetric Multiprocessing), o que significa que todas as [CPUs](../hardware/CPU.md) (ou núcleos) disponíveis no sistema são tratadas de forma igual e podem executar qualquer processo.
+O Windows é um *sistema operacional multiprocessamento simétrico* (SMP, do inglês Symmetric Multiprocessing), o que significa que todas as [CPUs](../hardware/CPU.md) (ou núcleos) disponíveis no sistema são tratadas de forma igual e podem executar qualquer [processo](../windows/process.md).
 
 Nesse tipo de arquitetura, o [kernel do Windows](../windows/kernel.md) pode agendar um processo para ser executado em qualquer CPU disponível, o que permite uma utilização mais eficiente dos recursos do sistema e melhora o desempenho geral.
 
@@ -17,6 +17,6 @@ Com o SMP, o Windows pode:
 
 O Windows pode ser configurado de diversas formas:
 
-- Configurações: uma interface de usuário para ajustar as preferências do sistema.
-- Painel de Controle: um conjunto de ferramentas para gerenciar e personalizar o sistema, geralmente destinado a usuários gerais.
-- MMC (Microsoft Management Console): uma ferramenta avançada para gerenciar e configurar o sistema, direcionada a profissionais de TI e administradores de sistemas.
+- [Configurações](./windows/settings.md): uma interface de usuário para ajustar as preferências do sistema.
+- [Painel de Controle](./windows/controlpanel.md): um conjunto de ferramentas para gerenciar e personalizar o sistema, geralmente destinado a usuários gerais.
+- [MMC](./windows/mmc.md) (Microsoft Management Console): uma ferramenta avançada para gerenciar e configurar o sistema, direcionada a profissionais de TI e administradores de sistemas.
