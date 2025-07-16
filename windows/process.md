@@ -91,7 +91,7 @@ Cada processo em execução recebe um **integrity level** que é identificado po
 
 ## [PowerShell](powershell.md)
 
-A **variável automática** do [PowerShell](powershell.md) `$PID` contém o **process identifier** do processo que está hospedando a sessão atual do Windows [[PowerShell](powershell.md)]([PowerShell](powershell.md).md).
+A **variável automática** do [PowerShell](powershell.md) `$PID` contém o **process identifier** do processo que está hospedando a sessão atual do Windows PowerShell.
 
 O **cmdlet** `get-process` retorna os processos que estão executando localmente ou remotamente.
 
