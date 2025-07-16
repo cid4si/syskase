@@ -17,6 +17,6 @@ Com o SMP, o Windows pode:
 
 O Windows pode ser configurado de diversas formas:
 
-- [Configurações](./windows/settings.md): uma interface de usuário para ajustar as preferências do sistema.
-- [Painel de Controle](./windows/controlpanel.md): um conjunto de ferramentas para gerenciar e personalizar o sistema, geralmente destinado a usuários gerais.
-- [MMC](./windows/mmc.md) (Microsoft Management Console): uma ferramenta avançada para gerenciar e configurar o sistema, direcionada a profissionais de TI e administradores de sistemas.
+- [Configurações](./settings.md): uma interface de usuário para ajustar as preferências do sistema.
+- [Painel de Controle](./controlpanel.md): um conjunto de ferramentas para gerenciar e personalizar o sistema, geralmente destinado a usuários gerais.
+- [MMC](./mmc.md) (Microsoft Management Console): uma ferramenta avançada para gerenciar e configurar o sistema, direcionada a profissionais de TI e administradores de sistemas.
